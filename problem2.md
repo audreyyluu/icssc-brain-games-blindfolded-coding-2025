@@ -8,7 +8,7 @@ You check your pockets. Empty. You retrace your steps. No luck. You briefly cons
 
 Fine. No map, no problem. You’re at (0,0), and if you can figure out where the tables are, you can take the shortest route and get this over with.
 
-Confidence is key. And right now, you’re picking the lock.
+Find the best route—or take the scenic (and shameful) one.
 
 ## The Task
 Write a function that determines the most efficient delivery route given a list of three table coordinates. Assume you start at (0,0), and return a list of coordinates in the order they should be visited to minimize total travel distance.
