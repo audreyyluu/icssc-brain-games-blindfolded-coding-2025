@@ -3,7 +3,7 @@ Before you even step outside the kitchen, you need to confirm what you’re deli
 
 Alright, let’s get started! Print out each of the following tasks.
 
-## Tasks
+## The Tasks
 1. Announce today’s sacred holiday: `Today is National Deep Dish Pizza Day!`
 
 
