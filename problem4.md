@@ -57,7 +57,6 @@ Formatting Hint: don’t worry about the returning costs for each person being a
 
 **Sample Output**: [{‘Sunday’:[[11.57, 5.79, 2.89], [4.0, 10.0, 8.0, 8.0]]}, {‘Wednesday’ [[13.11, 6.56, 3.28], [4.53, 11.33, 9.07, 9.07]]:}, {‘Friday’: [[12.34, 6.17, 3.09], [4.27, 10.67, 8.53, 8.53]]}]
 
-
 ## Part D: Ingredient Inventory
 Before your shift ends, make sure that all the ingredients are accounted for!
 
@@ -97,3 +96,12 @@ Print the table like this:
     - 124 Onions
     - 591 Sausages
     - 10 kgs Cheese
+
+
+[Get started with the starter code: problem4a.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem4a.py)
+
+[Get started with the starter code: problem4b.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem4b.py)
+
+[Get started with the starter code: problem4c.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem4c.py)
+
+[Get started with the starter code: problem4d.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem4d.py)
