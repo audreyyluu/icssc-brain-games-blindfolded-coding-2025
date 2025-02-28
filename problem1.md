@@ -1,9 +1,10 @@
 # Problem 1: Print Statements & Pizza Statements
+
 Before you even step outside the kitchen, you need to confirm what you’re delivering. The arcade has very specific requests, and if you mess this up, you might end up serving pineapple pizza to the wrong crowd.
 
 Alright, let’s get started! Print out each of the following tasks.
 
-## Tasks
+## The Tasks
 1. Announce today’s sacred holiday: `Today is National Deep Dish Pizza Day!`
 
 
@@ -46,3 +47,6 @@ Alright, let’s get started! Print out each of the following tasks.
 5. Dang… Before you can confirm the orders, you need to input a password to move on! Print the password EXACTLY as typed (NO COPYPASTING):
 
     `SYS_c0nF1rm: 1 L0v3 p1zZ@ p&s$wRd123 br41N G@m3$ iZ d@ B3$T!!`
+
+
+[Get started with the starter code: problem1.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem1.py)
