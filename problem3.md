@@ -20,3 +20,6 @@ Your input will be a list of fractions, each representing the portion of a pizza
 
     **Sample Output**:
     `4`
+
+
+[Get started with the starter code: problem3.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem3.py)

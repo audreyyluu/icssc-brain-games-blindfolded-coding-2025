@@ -21,3 +21,6 @@ Write a function that determines the most efficient delivery route given a list 
 
     **Sample Output**:
     `[(3,4), (2,5), (1,7)]`
+
+
+[Get started with the starter code: problem2.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem2.py)

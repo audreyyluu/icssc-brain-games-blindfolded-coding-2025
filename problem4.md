@@ -10,3 +10,11 @@ Nothing strikes fear into a pizza worker’s heart quite like an end-of-shift in
 
 # The Tasks
 
+
+[Get started with the starter code: problem4a.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem4a.py)
+
+[Get started with the starter code: problem4b.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem4b.py)
+
+[Get started with the starter code: problem4c.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem4c.py)
+
+[Get started with the starter code: problem4d.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem4d.py)
