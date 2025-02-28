@@ -9,4 +9,91 @@ And just when you think you're free, your manager slaps a clipboard into your ha
 Nothing strikes fear into a pizza worker’s heart quite like an end-of-shift ingredient count. Too many pineapples? Suspicious. Not enough cheese? Someone’s getting interrogated. If the numbers don’t add up, you’ll be stuck here recalculating while your coworkers escape into the night. Better make it quick—before they decide you’re the reason for the missing ham.
 
 # The Tasks
+## Part A: Calculate Earnings
+Calculate earnings given price tag -> one list of pizza amounts and cost per amount
 
+## Part B: Apply Group Discounts
+The arcade offers group discounts based on party size:
+- 4 people → $5 discount
+- 6 people → $8 discount
+- 8 people → $14 discount
+
+*Input Details*:
+- You will receive a list of lists, where each inner list represents a party of people.
+- Each party contains a list of numbers, where each number represents the amount of pizza an individual ate.
+- These numbers will always be multiples of ⅛ in their simplest form.
+
+*Discount Rules*:
+- A party doesn’t need to have exactly 4, 6, or 8 people to qualify—they just need at least that many.
+- Discounts stack. For example, a 13-person party would receive the 8-person discount first, then the 4-person discount.
+
+*Task*:
+- First, calculate the total cost of the party based on the amount of pizza eaten.
+- Apply the largest applicable discount(s) for each party (discounts stack from largest to smallest).
+- Return a list of integers, where each integer represents the final total cost for the corresponding party after all discounts are applied.
+
+## Part C: Apply Day Discounts & Split the Bill
+The arcade pizzeria is super generous and also has discounts on certain days!
+- Sunday → 25% off
+- Wednesday → 15% off
+- Friday → 20% off
+
+Given the total cost for each party (calculated in Part B), apply these day-specific discounts on top of any group discounts. After applying the discount for the specific day, each person in the party will pay separately.
+
+Input Details:
+- A list of lists, where each inner list represents a party, and each number in that list is the amount of pizza an individual ate.
+- A list of total party costs, where each value corresponds to the party’s total cost after group discounts (from Part B).
+
+*Task*:
+- Apply the appropriate day discount to each party’s total cost.
+- Split the discounted total fairly among the party based on the proportion of pizza each person ate.
+- Return a list of dictionaries, where:
+    - The keys are the discounted days ("Sunday", "Wednesday", "Friday").
+
+The values are lists of lists, where each inner list contains the final cost per person after all discounts, rounded to two decimal places.
+Formatting Hint: don’t worry about the returning costs for each person being a specific format. Just round to 2 decimal places (e.g. if cost is something like 0, 4, or 1.2 it would end up being 0.0, 4.0, and 1.2 because round() returns floats.)
+
+**Sample Input**: day_discount([[½, ¼, ⅛ ], [¼, ⅝, ½, ½ ]], [[27], [40]])
+
+**Sample Output**: [{‘Sunday’:[[11.57, 5.79, 2.89], [4.0, 10.0, 8.0, 8.0]]}, {‘Wednesday’ [[13.11, 6.56, 3.28], [4.53, 11.33, 9.07, 9.07]]:}, {‘Friday’: [[12.34, 6.17, 3.09], [4.27, 10.67, 8.53, 8.53]]}]
+
+
+## Part D: Ingredient Inventory
+Before your shift ends, make sure that all the ingredients are accounted for!
+
+Write a function that prints a table showing the before and after amounts of each ingredient.
+
+You will be given the total amount of ingredients at the start of the day. Based on the number of pizza slices sold, calculate how much of each ingredient remains.
+
+Print the table like this: 
+
+`Name of Ingredient | Before: (original amount) | After: (amount left over)`
+
+**Sample Output**: `Bacon | Before: 4 | After: 0`
+
+*Make sure the formatting matches exactly!*
+
+- Each pizza slice takes the following number of ingredients:
+    - 6 Pepperonis
+    - 4 Mushrooms 
+    - 2 Bacons
+    - 4 Pineapples
+    - 5 Olives
+    - 1 Ham
+    - 3 Peppers
+    - 4 Onions
+    - 6 Sausages
+    - 0.1 lbs cheese
+        - For some reason, the inventory tracker is configured to only accept kilograms (kgs) for the amount of cheese in the inventory. There is a low-priority ticket to get that fixed, but for now please convert from pounds to kilograms in your output.
+
+- The total amount of ingredients before the day started:
+    - 402 Pepperonis
+    - 293 Mushrooms
+    - 251 Bacons
+    - 620 Pineapples
+    - 582 Olives
+    - 152 Ham
+    - 487 Peppers
+    - 124 Onions
+    - 591 Sausages
+    - 10 kgs Cheese
