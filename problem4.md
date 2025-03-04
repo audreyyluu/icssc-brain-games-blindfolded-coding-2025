@@ -10,7 +10,13 @@ Nothing strikes fear into a pizza worker’s heart quite like an end-of-shift in
 
 # The Tasks
 ## Part A: Calculate Earnings
-Calculate earnings given price tag -> one list of pizza amounts and cost per amount
+You are given two inputs:
+
+- total_pizzas: total number of pizzas delivered
+- price_tag: price of ⅛ of a pizza
+
+Return the total amount of earnings (as a whole number).
+
 
 ## Part B: Apply Group Discounts
 The arcade offers group discounts based on party size:
