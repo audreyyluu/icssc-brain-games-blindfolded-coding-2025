@@ -6,4 +6,4 @@ def problem2(input):
 
 if __name__ == '__main__':
     sample_input = [(1,7), (3,4), (2,5)]
-    print(problem3(sample_input)) # should be [(3,4), (2,5), (1,7)]
+    print(problem2(sample_input)) # should be [(3,4), (2,5), (1,7)]
