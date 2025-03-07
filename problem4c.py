@@ -13,10 +13,11 @@ should return a list of dictionaries:
 
 def problem4c(parties: list, total_cost: list) -> list:
     #Code your function here
-    input = [parties, total_cost] #Simply to see Input/Output return. You should use parties and total_cost in your function, not input.
+    input = [parties, total_cost] #IGNORE/DO NOT MODIFY. SIMPLY FOR RETURN FUNCTIONALITY.
 
     
     output = False # Please set your answer to this
+ 
     #return output structure: Output: [{'Sunday': [[]]}, {'Wednesday': [[]]}, {'Friday': [[]]}]
     return {"Input": input, "Output": output} # DO NOT MODIFY THIS LINE
 
