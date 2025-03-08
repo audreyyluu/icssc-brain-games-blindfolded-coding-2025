@@ -42,7 +42,6 @@ Alright, let’s get started! Print out each of the following tasks with each ta
     - Onions - $0.75
     - Sausage - $1.50
     - Cheese - $1.00
-    - Answer: $11.50
 
 
 [Get started with the starter code: problem1.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem1.py)
