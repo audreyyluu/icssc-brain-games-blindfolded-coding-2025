@@ -1,3 +1,5 @@
+import math
+
 def problem3(input):
     # Code your function here
     
