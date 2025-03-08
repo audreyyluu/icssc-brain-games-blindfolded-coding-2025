@@ -8,5 +8,5 @@ def problem4b(input):
 
 if __name__ == "__main__":
     # Feel free to add additional tests here
-    sample_input = [[1/2, 3/8, 1/4, 1/8]]
-    print(problem4b(sample_input)) # Output should be 25
+    sample_input = [[1/2, 3/8, 1/4, 1/8], [3/8, 3/8, 5/8, 1/2, 1/8, 5/8, 1/2]]
+    print(problem4b(sample_input)) # Output should be [25, 67]
