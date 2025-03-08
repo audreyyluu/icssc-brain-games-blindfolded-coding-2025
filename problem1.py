@@ -1,10 +1,17 @@
-def problem1() -> None:
-    # Code your function here
+import io
+import contextlib
 
-    output = False # Please set your answer to this
-    return {"Input": input, "Output": output} # DO NOT MODIFY THIS LINE
+def problem1() -> None:
+    with io.StringIO() as buf, contextlib.redirect_stdout(buf):
+        # DO NOT MODIFY ABOVE THIS LINE
+
+        # Code your print statements here
+        
+        # DO NOT MODIFY BELOW THIS LINE
+        output = buf.getvalue().splitlines()
+
+    return {"Input": None, "Output": output}  # DO NOT MODIFY THIS LINE
 
 if __name__ == '__main__':
     # Feel free to add additional tests here
-    print(problem1)
-    
+    print(problem1())
