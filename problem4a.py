@@ -1,3 +1,10 @@
-def problem4a(total_pizzas: int, price_tag: int):
+def problem4a(total_pizzas: int) -> dict:
     # Code your function here
-    return 0
+
+    output = False # Please set your answer to this
+    return {"Input": total_pizzas, "Output": output}  # DO NOT MODIFY THIS LINE
+
+if __name__ == '__main__':
+    # Feel free to add additional tests here
+    sample_input = 1
+    print(problem4a(total_pizzas=sample_input)) # Output should 24

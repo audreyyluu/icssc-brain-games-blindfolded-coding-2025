@@ -10,12 +10,12 @@ Nothing strikes fear into a pizza worker’s heart quite like an end-of-shift in
 
 # The Tasks
 ## Part A: Calculate Earnings
-You are given two inputs:
-
+*Input Details*:
 - total_pizzas: total number of pizzas delivered
 - price_tag: price of ⅛ of a pizza
 
-Return the total amount of earnings (as a whole number).
+*Task*:
+- Return the total amount of earnings (as a whole number).
 
 
 ## Part B: Apply Group Discounts
@@ -66,7 +66,7 @@ Formatting Hint: don’t worry about the returning costs for each person being a
 ## Part D: Ingredient Inventory
 Before your shift ends, make sure that all the ingredients are accounted for!
 
-Write a function that prints a table showing the before and after amounts of each ingredient.
+Write a function that returns a table as a string (hint: an f-string may be useful!) showing the before and after amounts of each ingredient.
 
 You will be given the total amount of ingredients at the start of the day. Based on the number of pizza slices sold, calculate how much of each ingredient remains.
 
@@ -76,7 +76,7 @@ Print the table like this:
 
 **Sample Output**: `Bacon | Before: 4 | After: 0`
 
-*Make sure the formatting matches exactly!*
+*Make sure the formatting matches exactly! Each ingredient should be on a separate line.*
 
 - Each pizza slice takes the following number of ingredients:
     - 6 Pepperonis
@@ -89,7 +89,7 @@ Print the table like this:
     - 4 Onions
     - 6 Sausages
     - 0.1 lbs cheese
-        - For some reason, the inventory tracker is configured to only accept kilograms (kgs) for the amount of cheese in the inventory. There is a low-priority ticket to get that fixed, but for now please convert from pounds to kilograms in your output.
+        - For some reason, the inventory tracker is configured to only accept kilograms (kgs) for the amount of cheese in the inventory. There is a low-priority ticket to get that fixed, but for now please convert from pounds to kilograms in your output and round to the nearest whole number.
 
 - The total amount of ingredients before the day started:
     - 402 Pepperonis

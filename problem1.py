@@ -1,12 +1,12 @@
 import io
 import contextlib
 
-def problem1() -> None:
+def problem1() -> dict:
     with io.StringIO() as buf, contextlib.redirect_stdout(buf):
         # DO NOT MODIFY ABOVE THIS LINE
 
         # Code your print statements here
-        
+
         # DO NOT MODIFY BELOW THIS LINE
         output = buf.getvalue().splitlines()
 
