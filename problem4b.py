@@ -1,4 +1,14 @@
 def problem4b(input):
+    """
+    This function calculates the cost of pizza for each party.
+    
+    Args: 
+        input (nested list): Each inner list represents a party with 
+                             each value inside representing the amount
+                             of pizza that individual ate.
+    Returns: 
+        list: A list of integers representing the cost per party.
+    """
     # Code your function here
 
     output = False # Please set your answer to this
