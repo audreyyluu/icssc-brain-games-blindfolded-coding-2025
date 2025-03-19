@@ -1,5 +1,22 @@
 def problem4c(parties: list, total_cost: list) -> list:
     input = [parties, total_cost] #IGNORE/DO NOT MODIFY. SIMPLY FOR RETURN FUNCTIONALITY.
+
+    """
+    This function calculates the cost of pizza for each person in each party.
+    
+    Args: 
+        parties (nested list): Each inner list represents a party with 
+                             each value inside representing the amount
+                             of pizza that individual ate.
+
+        total_cost (list): A list of the total costs for each party based on the pizza they ate
+                            **Assume party discount from problem4b has already been calculated**
+                            
+    Returns: 
+        output: A list of dictionaries representing the the cost for every person in each party.
+                The key is the discounted day of the week and the value is a nested list (each inner
+                list representing a party) with the calculated individual costs. 
+    """
     
     #Code your function here
     
