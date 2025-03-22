@@ -69,9 +69,11 @@ Before your shift ends, make sure that all the ingredients are accounted for!
 
 Write a function that returns a table as a string showing the before and after amounts of each ingredient.
 
-You will be given the total amount of ingredients at the start of the day. Based on the number of pizza slices sold, calculate how much of each ingredient remains.
+You will be given the total amount of ingredients at the start of the day. 
 
-An example ingredient entry from the table should look like this: 
+Based on the number of pizza slices sold, calculate how much of each ingredient remains.
+
+An ingredient entry from the table should look like this: 
 
 `Name of Ingredient | Before: (original amount) | After: (amount left over)`
 
