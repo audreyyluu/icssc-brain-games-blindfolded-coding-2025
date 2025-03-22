@@ -1,7 +1,16 @@
 import io
 import contextlib
 
-def problem1() -> dict:
+def problem1():
+    """
+    This function prints the necessarys statements for problem 1.
+    
+    Args:
+        None
+    
+    Returns:
+        output: fetched from STDIN (so be sure to only use print statements for your answers)
+    """
     with io.StringIO() as buf, contextlib.redirect_stdout(buf):
         # DO NOT MODIFY ABOVE THIS LINE
 

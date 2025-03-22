@@ -29,7 +29,7 @@ Alright, let’s get started! Print out each of the following tasks with each ta
     - Sausage
     - Cheese
 
-    Print the toppings all on one line, separated by a space.
+    **Print the toppings all on one line, separated by a space.**
 
 4. Finally, you’re confirming the total for a pizza with every topping. Given the prices of adding on each topping, calculate what the total would be for this pizza and print it out. (Assume the price of a pizza only depends on its toppings. Include $ sign and 2 digits after decimal, ex. $15.99 or $5.99) 
     - Pepperoni - $1.50

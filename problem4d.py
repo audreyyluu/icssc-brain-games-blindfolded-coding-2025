@@ -1,6 +1,18 @@
-def problem4d(total_pizzas: int) -> dict:
+def problem4d(total_pizzas: int):
+    """
+    This function returns a string containing a table of ingredients
+    and their amounts before and after pizzas are made.
+    
+    Args:
+        total_pizzas (int): total number of pizzas delivered
+    
+    Returns:
+        output (str): A string containing a table of ingredients
+        and their amounts before and after pizzas are made
+    """
     # Code your function here
-    output = False # Please set your answer to this
+
+    output = "" # Please assign this variable to your answer
     return {"Input": total_pizzas, "Output": output}  # DO NOT MODIFY THIS LINE
 
 if __name__ == '__main__':

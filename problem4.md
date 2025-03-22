@@ -10,13 +10,14 @@ Nothing strikes fear into a pizza worker’s heart quite like an end-of-shift in
 
 # The Tasks
 ## Part A: Calculate Earnings
+
+The price of 1/8 of a pizza is $3. Given the total number of pizzas delivered, calculate the total amount of earnings.
+
 *Input Details*:
 - total_pizzas: total number of pizzas delivered
-- price_tag: price of ⅛ of a pizza
 
 *Task*:
-- Return the total amount of earnings (as a whole number).
-
+- Return the total amount of earnings (as an int)
 
 ## Part B: Apply Group Discounts
 The arcade offers group discounts based on party size:
@@ -66,15 +67,19 @@ Formatting Hint: don’t worry about the returning costs for each person being a
 ## Part D: Ingredient Inventory
 Before your shift ends, make sure that all the ingredients are accounted for!
 
-Write a function that returns a table as a string (hint: an f-string may be useful!) showing the before and after amounts of each ingredient.
+Write a function that returns a table as a string showing the before and after amounts of each ingredient.
 
 You will be given the total amount of ingredients at the start of the day. Based on the number of pizza slices sold, calculate how much of each ingredient remains.
 
-Print the table like this: 
+An example ingredient entry from the table should look like this: 
 
 `Name of Ingredient | Before: (original amount) | After: (amount left over)`
 
-**Sample Output**: `Bacon | Before: 4 | After: 0`
+**Sample Output**: 
+
+`Pepperoni | Before: 402 | After: 305`
+
+`Bacon | Before: 4 | After: 0`
 
 *Make sure the formatting matches exactly! Each ingredient should be on a separate line.*
 
@@ -89,7 +94,7 @@ Print the table like this:
     - 4 Onions
     - 6 Sausages
     - 0.1 lbs cheese
-        - For some reason, the inventory tracker is configured to only accept kilograms (kgs) for the amount of cheese in the inventory. There is a low-priority ticket to get that fixed, but for now please convert from pounds to kilograms in your output and round to the nearest whole number.
+        - For some reason, the inventory tracker is configured to only accept kilograms (kgs) for the amount of cheese in the inventory. There is a low-priority ticket to get that fixed, but for now please convert to kilograms in your output and round to the nearest whole number.
 
 - The total amount of ingredients before the day started:
     - 402 Pepperonis
