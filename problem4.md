@@ -32,7 +32,7 @@ The arcade offers group discounts based on party size:
 
 *Discount Rules*:
 - A party doesn’t need to have exactly 4, 6, or 8 people to qualify—they just need at least that many.
-- Discounts stack. For example, a 13-person party would receive the 8-person discount first, then the 4-person discount.
+- Discounts stack starting from the greatest discount first. For example, a 13-person party would receive the 8-person discount first, then the remaining 5 people of the party would qualify for the 4-person discount.
 
 *Task*:
 - First, calculate the total cost of the party based on the amount of pizza eaten.
