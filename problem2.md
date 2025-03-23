@@ -11,9 +11,10 @@ Fine. No map, no problem. You’re at (0,0), and if you can figure out where the
 Find the best route—or take the scenic (and shameful) one.
 
 ## The Task
-Write a function that determines the most efficient delivery route given a list of three table coordinates. Assume you start at (0,0), and return a list of coordinates in the order they should be visited to minimize total travel distance.
+Write a function that determines an efficient delivery route given a list of three table coordinates. Assume you start at (0,0), and return a list of coordinates in the order they should be visited to minimize total travel distance.
 - Input will be a list of three tuples
-- *Hint: Find the distance to the closest table and then the 2 possible paths and print the shortest one*
+- Use the "nearest neighbor" approach: always move to the closest unvisited point next
+- Note: This may not always give the absolute shortest path, but it is a simpler algorithm to implement and will be accepted for this problem.
 <br></br>
 
     **Sample Input**:
