@@ -54,7 +54,7 @@ Input Details:
 *Task*:
 - Apply the appropriate day discount to each party’s total cost.
 - Split the discounted total fairly among the party based on the proportion of pizza each person ate.
-- Return a list of dictionaries, where:
+- Return a dictionary, where:
     - The keys are the discounted days ("Sunday", "Wednesday", "Friday").
 
 The values are lists of lists, where each inner list contains the final cost per person after all discounts, rounded to two decimal places.
