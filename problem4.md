@@ -45,7 +45,7 @@ The arcade pizzeria is super generous and also has discounts on certain days!
 - Wednesday → 15% off
 - Friday → 20% off
 
-Given the total cost for each party (calculated in Part B), apply these day-specific discounts on top of any group discounts. After applying the discount for the specific day, each person in the party will pay separately.
+Given the total cost for each party (calculated in Part B), apply these day-specific discounts on top of any group discounts. After applying the discount for the specific day, each person in the party will pay separately. (You don't have to call anything from Part B, assume group discounts have been calculated already.) 
 
 Input Details:
 - A list of lists, where each inner list represents a party, and each number in that list is the amount of pizza an individual ate.
