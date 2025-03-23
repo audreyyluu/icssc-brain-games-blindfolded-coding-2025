@@ -63,9 +63,9 @@ Formatting Hint: don’t worry about the returning costs for each person being a
 **Sample Input**: problem_4c([[½, ¼, ⅛ ], [¼, ⅝, ½, ½ ]], [21, 40])
 
 **Sample Output**:
-    {‘Sunday’ : [[11.57, 5.79, 2.89], [4.0, 10.0, 8.0, 8.0]], 
-    ‘Wednesday’ : [[13.11, 6.56, 3.28], [4.53, 11.33, 9.07, 9.07]], 
-    ‘Friday’ : [[12.34, 6.17, 3.09], [4.27, 10.67, 8.53, 8.53]]}
+    {‘Sunday’ : [[9.0, 4.5, 2.25], [4.0, 10.0, 8.0, 8.0]], 
+    ‘Wednesday’ : [[10.2, 5.1, 2.55], [4.53, 11.33, 9.07, 9.07]], 
+    ‘Friday’ : [[9.6, 4.8, 2.4], [4.27, 10.67, 8.53, 8.53]]}
 
 ## Part D: Ingredient Inventory
 Before your shift ends, make sure that all the ingredients are accounted for!
