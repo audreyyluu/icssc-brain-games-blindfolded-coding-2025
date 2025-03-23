@@ -60,7 +60,7 @@ Input Details:
 The values are lists of lists, where each inner list contains the final cost per person after all discounts, rounded to two decimal places.
 Formatting Hint: don’t worry about the returning costs for each person being a specific format. Just round to 2 decimal places (e.g. if cost is something like 0, 4, or 1.2 it would end up being 0.0, 4.0, and 1.2 because round() returns floats.)
 
-**Sample Input**: day_discount([[½, ¼, ⅛ ], [¼, ⅝, ½, ½ ]], [27, 40])
+**Sample Input**: problem_4c([[½, ¼, ⅛ ], [¼, ⅝, ½, ½ ]], [21, 40])
 
 **Sample Output**:
     {‘Sunday’ : [[11.57, 5.79, 2.89], [4.0, 10.0, 8.0, 8.0]], 
