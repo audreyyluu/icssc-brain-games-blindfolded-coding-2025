@@ -114,10 +114,10 @@ An ingredient entry from the table should look like this:
     - 10 kgs Cheese
 
 
-[Get started with the starter code: problem4a.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem4a.py)
+[Get started with the starter code: problem4a.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/starter_code/problem4a.py)
 
-[Get started with the starter code: problem4b.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem4b.py)
+[Get started with the starter code: problem4b.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/starter_code/problem4b.py)
 
-[Get started with the starter code: problem4c.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem4c.py)
+[Get started with the starter code: problem4c.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/starter_code/problem4c.py)
 
-[Get started with the starter code: problem4d.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem4d.py)
+[Get started with the starter code: problem4d.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/starter_code/problem4d.py)

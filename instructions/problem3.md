@@ -22,4 +22,4 @@ Your input will be a list of fractions, each representing the portion of a pizza
     `3`
 
 
-[Get started with the starter code: problem3.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem3.py)
+[Get started with the starter code: problem3.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/starter_code/problem3.py)

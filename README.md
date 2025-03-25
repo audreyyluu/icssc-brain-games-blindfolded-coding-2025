@@ -22,10 +22,10 @@ Note: You can view the problems on the paper provided to you or here.
 
 Download the starter code by clicking the green code button on the top right, and then click Download ZIP
 
-[Problem 1](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem1.md)
+[Problem 1](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/instructions/problem1.md)
 
-[Problem 2](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem2.md)
+[Problem 2](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/instructions/problem2.md)
 
-[Problem 3](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem3.md)
+[Problem 3](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/instructions/problem3.md)
 
-[Problem 4](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem4.md)
+[Problem 4](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/instructions/problem4.md)

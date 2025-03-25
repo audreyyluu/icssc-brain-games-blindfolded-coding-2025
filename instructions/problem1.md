@@ -44,4 +44,4 @@ Alright, let’s get started! Print out each of the following tasks with each ta
     - Cheese - $1.00
 
 
-[Get started with the starter code: problem1.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/problem1.py)
+[Get started with the starter code: problem1.py](https://github.com/audreyyluu/icssc-brain-games-blindfolded-coding-2025/blob/main/starter_code/problem1.py)
