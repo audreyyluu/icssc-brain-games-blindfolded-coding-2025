@@ -10,7 +10,7 @@ Alright, let’s get started! Print out each of the following tasks with each ta
 
 2. Let’s make sure you write the orders properly! 
     
-    John wants a pizza with pepperonis, sausage, ham, and pineapple. For some reason, the arcade requires you to print out the toppings from shortest to longest length. 
+    John wants a pizza with Pepperonis, Sausage, Ham, and Pineapple. For some reason, the arcade requires you to print out the toppings from shortest to longest length. 
 
     The format for typing an order is: `Name - Topping, Topping, Topping`
     
