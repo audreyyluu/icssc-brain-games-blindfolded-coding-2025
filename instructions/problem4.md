@@ -48,17 +48,15 @@ The arcade pizzeria is super generous and also has discounts on certain days!
 Given the total cost for each party (calculated in Part B), apply these day-specific discounts on top of any group discounts. After applying the discount for the specific day, each person in the party will pay separately. (You don't have to call anything from Part B, assume group discounts have been calculated already.) 
 
 Input Details:
-- A list of lists, where each inner list represents a party, and each number in that list is the amount of pizza an individual ate.
-- A list of total party costs, where each value corresponds to the party’s total cost after group discounts (from Part B).
+- parties: A list of lists, where each inner list represents a party, and each number in that list is the amount of pizza an individual ate.
+- total_cost: A list of total party costs, where each value corresponds to the party’s total cost after group discounts (from Part B).
 
 *Task*:
 - Apply the appropriate day discount to each party’s total cost.
 - Split the discounted total fairly among the party based on the proportion of pizza each person ate.
 - Return a dictionary, where:
     - The keys are the discounted days ("Sunday", "Wednesday", "Friday").
-
-The values are lists of lists, where each inner list contains the final cost per person after all discounts, rounded to two decimal places.
-Formatting Hint: don’t worry about the returning costs for each person being a specific format. Just round to 2 decimal places (e.g. if cost is something like 0, 4, or 1.2 it would end up being 0.0, 4.0, and 1.2 because round() returns floats.)
+    - The values are lists of lists, where each inner list contains the final cost per person after all discounts, rounded to two decimal places.
 
 **Sample Input**: problem_4c([[½, ¼, ⅛ ], [¼, ⅝, ½, ½ ]], [21, 40])
 
